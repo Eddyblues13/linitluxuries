@@ -1,0 +1,2119 @@
+*,
+:before,
+:after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb
+}
+
+:before,
+:after {
+    --tw-content: ""
+}
+
+html {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, apple color emoji, segoe ui emoji, Segoe UI Symbol, noto color emoji
+}
+
+body {
+    margin: 0;
+    line-height: inherit
+}
+
+hr {
+    height: 0;
+    color: inherit;
+    border-top-width: 1px
+}
+
+abbr:where([title]) {
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit
+}
+
+b,
+strong {
+    font-weight: bolder
+}
+
+code,
+kbd,
+samp,
+pre {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+    font-size: 1em
+}
+
+small {
+    font-size: 80%
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sub {
+    bottom: -.25em
+}
+
+sup {
+    top: -.5em
+}
+
+table {
+    text-indent: 0;
+    border-color: inherit;
+    border-collapse: collapse
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: inherit;
+    color: inherit;
+    margin: 0;
+    padding: 0
+}
+
+button,
+select {
+    text-transform: none
+}
+
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+    -webkit-appearance: button;
+    background-color: transparent;
+    background-image: none
+}
+
+:-moz-focusring {
+    outline: auto
+}
+
+:-moz-ui-invalid {
+    box-shadow: none
+}
+
+progress {
+    vertical-align: baseline
+}
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+
+::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+summary {
+    display: list-item
+}
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+    margin: 0
+}
+
+fieldset {
+    margin: 0;
+    padding: 0
+}
+
+legend {
+    padding: 0
+}
+
+ol,
+ul,
+menu {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+textarea {
+    resize: vertical
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+    opacity: 1;
+    color: #9ca3af
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    opacity: 1;
+    color: #9ca3af
+}
+
+input::placeholder,
+textarea::placeholder {
+    opacity: 1;
+    color: #9ca3af
+}
+
+button,
+[role=button] {
+    cursor: pointer
+}
+
+:disabled {
+    cursor: default
+}
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+    display: block;
+    vertical-align: middle
+}
+
+img,
+video {
+    max-width: 100%;
+    height: auto
+}
+
+[hidden] {
+    display: none
+}
+
+*,
+:before,
+:after {
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(59, 130, 246, .5);
+    --tw-ring-offset-shadow: 0 0 rgba(0, 0, 0, 0);
+    --tw-ring-shadow: 0 0 rgba(0, 0, 0, 0);
+    --tw-shadow: 0 0 rgba(0, 0, 0, 0);
+    --tw-shadow-colored: 0 0 rgba(0, 0, 0, 0);
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia:
+}
+
+#tailwind .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0
+}
+
+#tailwind .pointer-events-none {
+    pointer-events: none
+}
+
+#tailwind .visible {
+    visibility: visible
+}
+
+#tailwind .static {
+    position: static
+}
+
+#tailwind .fixed {
+    position: fixed
+}
+
+#tailwind .absolute {
+    position: absolute
+}
+
+#tailwind .relative {
+    position: relative
+}
+
+#tailwind .sticky {
+    position: -webkit-sticky;
+    position: sticky
+}
+
+#tailwind .inset-0 {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+
+#tailwind .top-0 {
+    top: 0
+}
+
+#tailwind .right-0 {
+    right: 0
+}
+
+#tailwind .left-0 {
+    left: 0
+}
+
+#tailwind .bottom-\[105px\] {
+    bottom: 105px
+}
+
+#tailwind .top-\[275px\] {
+    top: 275px
+}
+
+#tailwind .top-\[50\%\] {
+    top: 50%
+}
+
+#tailwind .left-\[50\%\] {
+    left: 50%
+}
+
+#tailwind .top-nav {
+    top: 67px
+}
+
+#tailwind .z-1 {
+    z-index: 1
+}
+
+#tailwind .z-10 {
+    z-index: 10
+}
+
+#tailwind .order-1 {
+    order: 1
+}
+
+#tailwind .m-2\.5 {
+    margin: .625rem
+}
+
+#tailwind .m-2 {
+    margin: .5rem
+}
+
+#tailwind .m-0 {
+    margin: 0
+}
+
+#tailwind .m-4 {
+    margin: 1rem
+}
+
+#tailwind .mx-auto {
+    margin-left: auto;
+    margin-right: auto
+}
+
+#tailwind .my-0 {
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+#tailwind .mx-2 {
+    margin-left: .5rem;
+    margin-right: .5rem
+}
+
+#tailwind .mx-4 {
+    margin-left: 1rem;
+    margin-right: 1rem
+}
+
+#tailwind .my-8 {
+    margin-top: 2rem;
+    margin-bottom: 2rem
+}
+
+#tailwind .my-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem
+}
+
+#tailwind .\ !mx-0 {
+    margin-left: 0 !important;
+    margin-right: 0 !important
+}
+
+#tailwind .mb-8 {
+    margin-bottom: 2rem
+}
+
+#tailwind .mr-4 {
+    margin-right: 1rem
+}
+
+#tailwind .mt-8 {
+    margin-top: 2rem
+}
+
+#tailwind .mb-2 {
+    margin-bottom: .5rem
+}
+
+#tailwind .mb-5 {
+    margin-bottom: 1.25rem
+}
+
+#tailwind .mb-10 {
+    margin-bottom: 2.5rem
+}
+
+#tailwind .mt-0 {
+    margin-top: 0
+}
+
+#tailwind .mb-0 {
+    margin-bottom: 0
+}
+
+#tailwind .mb-12 {
+    margin-bottom: 3rem
+}
+
+#tailwind .mb-6 {
+    margin-bottom: 1.5rem
+}
+
+#tailwind .ml-6 {
+    margin-left: 1.5rem
+}
+
+#tailwind .mb-4 {
+    margin-bottom: 1rem
+}
+
+#tailwind .mr-6 {
+    margin-right: 1.5rem
+}
+
+#tailwind .mt-5 {
+    margin-top: 1.25rem
+}
+
+#tailwind .mt-3 {
+    margin-top: .75rem
+}
+
+#tailwind .mt-2 {
+    margin-top: .5rem
+}
+
+#tailwind .block {
+    display: block
+}
+
+#tailwind .inline-block {
+    display: inline-block
+}
+
+#tailwind .inline {
+    display: inline
+}
+
+#tailwind .flex {
+    display: flex
+}
+
+#tailwind .table {
+    display: table
+}
+
+#tailwind .grid {
+    display: grid
+}
+
+#tailwind .hidden {
+    display: none
+}
+
+#tailwind .\ !hidden {
+    display: none !important
+}
+
+#tailwind .h-\[600px\] {
+    height: 600px
+}
+
+#tailwind .h-full {
+    height: 100%
+}
+
+#tailwind .h-\[36px\] {
+    height: 36px
+}
+
+#tailwind .h-\[66px\] {
+    height: 66px
+}
+
+#tailwind .h-\[42px\] {
+    height: 42px
+}
+
+#tailwind .h-\[56px\] {
+    height: 56px
+}
+
+#tailwind .h-\[7px\] {
+    height: 7px
+}
+
+#tailwind .h-\[80px\] {
+    height: 80px
+}
+
+#tailwind .h-\[180px\] {
+    height: 180px
+}
+
+#tailwind .h-\[40px\] {
+    height: 40px
+}
+
+#tailwind .h-\[280px\] {
+    height: 280px
+}
+
+#tailwind .h-\[250px\] {
+    height: 250px
+}
+
+#tailwind .h-\[1050px\] {
+    height: 1050px
+}
+
+#tailwind .h-0 {
+    height: 0
+}
+
+#tailwind .h-\[150px\] {
+    height: 150px
+}
+
+#tailwind .h-\[210px\] {
+    height: 210px
+}
+
+#tailwind .h-\[376px\] {
+    height: 376px
+}
+
+#tailwind .h-\[245px\] {
+    height: 245px
+}
+
+#tailwind .h-\[274px\] {
+    height: 274px
+}
+
+#tailwind .h-\[268px\] {
+    height: 268px
+}
+
+#tailwind .h-\[75vh\] {
+    height: 75vh
+}
+
+#tailwind .h-\[64px\] {
+    height: 64px
+}
+
+#tailwind .h-\[120px\] {
+    height: 120px
+}
+
+#tailwind .h-\[32px\] {
+    height: 32px
+}
+
+#tailwind .h-\[30px\] {
+    height: 30px
+}
+
+#tailwind .max-h-\[40vh\] {
+    max-height: 40vh
+}
+
+#tailwind .min-h-\[67px\] {
+    min-height: 67px
+}
+
+#tailwind .min-h-\[40px\] {
+    min-height: 40px
+}
+
+#tailwind .w-\[300px\] {
+    width: 300px
+}
+
+#tailwind .w-\[120px\] {
+    width: 120px
+}
+
+#tailwind .w-full {
+    width: 100%
+}
+
+#tailwind .w-\[75px\] {
+    width: 75px
+}
+
+#tailwind .w-\[160px\] {
+    width: 160px
+}
+
+#tailwind .w-3\/5 {
+    width: 60%
+}
+
+#tailwind .w-\[180px\] {
+    width: 180px
+}
+
+#tailwind .w-\[50px\] {
+    width: 50px
+}
+
+#tailwind .w-\[336px\] {
+    width: 336px
+}
+
+#tailwind .w-\[970px\] {
+    width: 970px
+}
+
+#tailwind .w-3\/4 {
+    width: 75%
+}
+
+#tailwind .w-\[324px\] {
+    width: 324px
+}
+
+#tailwind .w-\[40px\] {
+    width: 40px
+}
+
+#tailwind .w-\[90\%\] {
+    width: 90%
+}
+
+#tailwind .w-\[32px\] {
+    width: 32px
+}
+
+#tailwind .w-\[30px\] {
+    width: 30px
+}
+
+#tailwind .min-w-\[auto\] {
+    min-width: auto
+}
+
+#tailwind .max-w-\[900px\] {
+    max-width: 900px
+}
+
+#tailwind .max-w-\[720px\] {
+    max-width: 720px
+}
+
+#tailwind .max-w-\[640px\] {
+    max-width: 640px
+}
+
+#tailwind .max-w-\[1400px\] {
+    max-width: 1400px
+}
+
+#tailwind .max-w-\[650px\] {
+    max-width: 650px
+}
+
+#tailwind .flex-1 {
+    flex: 1 1 0%
+}
+
+#tailwind .shrink-0 {
+    flex-shrink: 0
+}
+
+#tailwind .translate-x-\[-50\%\] {
+    --tw-translate-x: -50%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+#tailwind .translate-y-\[-50\%\] {
+    --tw-translate-y: -50%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+#tailwind .rotate-180 {
+    --tw-rotate: 180deg;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+#tailwind .transform {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+#tailwind .cursor-pointer {
+    cursor: pointer
+}
+
+#tailwind .resize-none {
+    resize: none
+}
+
+#tailwind .list-none {
+    list-style-type: none
+}
+
+#tailwind .list-disc {
+    list-style-type: disc
+}
+
+#tailwind .grid-cols-\[repeat\(1\, _max-content\)\] {
+    grid-template-columns: repeat(1, -webkit-max-content);
+    grid-template-columns: repeat(1, max-content)
+}
+
+#tailwind .flex-col {
+    flex-direction: column
+}
+
+#tailwind .flex-col-reverse {
+    flex-direction: column-reverse
+}
+
+#tailwind .flex-wrap {
+    flex-wrap: wrap
+}
+
+#tailwind .items-center {
+    align-items: center
+}
+
+#tailwind .justify-center {
+    justify-content: center
+}
+
+#tailwind .justify-between {
+    justify-content: space-between
+}
+
+#tailwind .gap-6 {
+    gap: 1.5rem
+}
+
+#tailwind .space-y-6>:not([hidden])~:not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1.5rem * var(--tw-space-y-reverse))
+}
+
+#tailwind .space-y-8>:not([hidden])~:not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(2rem * var(--tw-space-y-reverse))
+}
+
+#tailwind .space-y-20>:not([hidden])~:not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(5rem * var(--tw-space-y-reverse))
+}
+
+#tailwind .space-y-4>:not([hidden])~:not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1rem * var(--tw-space-y-reverse))
+}
+
+#tailwind .space-y-10>:not([hidden])~:not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(2.5rem * var(--tw-space-y-reverse))
+}
+
+#tailwind .space-x-3>:not([hidden])~:not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(.75rem * var(--tw-space-x-reverse));
+    margin-left: calc(.75rem * calc(1 - var(--tw-space-x-reverse)))
+}
+
+#tailwind .space-x-4>:not([hidden])~:not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(1rem * var(--tw-space-x-reverse));
+    margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)))
+}
+
+#tailwind .space-y-2>:not([hidden])~:not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(.5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(.5rem * var(--tw-space-y-reverse))
+}
+
+#tailwind .space-x-1>:not([hidden])~:not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(.25rem * var(--tw-space-x-reverse));
+    margin-left: calc(.25rem * calc(1 - var(--tw-space-x-reverse)))
+}
+
+#tailwind .space-y-3>:not([hidden])~:not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(.75rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(.75rem * var(--tw-space-y-reverse))
+}
+
+#tailwind .divide-y>:not([hidden])~:not([hidden]) {
+    --tw-divide-y-reverse: 0;
+    border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
+    border-bottom-width: calc(1px * var(--tw-divide-y-reverse))
+}
+
+#tailwind .divide-grey-9>:not([hidden])~:not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgba(141, 141, 141, var(--tw-divide-opacity))
+}
+
+#tailwind .overflow-hidden {
+    overflow: hidden
+}
+
+#tailwind .overflow-x-auto {
+    overflow-x: auto
+}
+
+#tailwind .overflow-y-auto {
+    overflow-y: auto
+}
+
+#tailwind .truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+#tailwind .rounded {
+    border-radius: .25rem
+}
+
+#tailwind .rounded-xl {
+    border-radius: .75rem
+}
+
+#tailwind .rounded-2xl {
+    border-radius: 1rem
+}
+
+#tailwind .rounded-full {
+    border-radius: 9999px
+}
+
+#tailwind .border {
+    border-width: 1px
+}
+
+#tailwind .border-b {
+    border-bottom-width: 1px
+}
+
+#tailwind .border-grey-4 {
+    --tw-border-opacity: 1;
+    border-color: rgba(47, 55, 79, var(--tw-border-opacity))
+}
+
+#tailwind .border-grey-5 {
+    --tw-border-opacity: 1;
+    border-color: rgba(222, 222, 222, var(--tw-border-opacity))
+}
+
+#tailwind .border-grey-7 {
+    --tw-border-opacity: 1;
+    border-color: rgba(234, 234, 234, var(--tw-border-opacity))
+}
+
+#tailwind .border-red-2 {
+    --tw-border-opacity: 1;
+    border-color: rgba(224, 89, 82, var(--tw-border-opacity))
+}
+
+#tailwind .border-black {
+    --tw-border-opacity: 1;
+    border-color: rgba(0, 0, 0, var(--tw-border-opacity))
+}
+
+#tailwind .border-grey-3 {
+    --tw-border-opacity: 1;
+    border-color: rgba(166, 166, 166, var(--tw-border-opacity))
+}
+
+#tailwind .border-white {
+    --tw-border-opacity: 1;
+    border-color: rgba(255, 255, 255, var(--tw-border-opacity))
+}
+
+#tailwind .bg-dark-blue-1 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(55, 66, 95, var(--tw-bg-opacity))
+}
+
+#tailwind .bg-\[\#2ab15e\] {
+    --tw-bg-opacity: 1;
+    background-color: rgba(42, 177, 94, var(--tw-bg-opacity))
+}
+
+#tailwind .bg-white {
+    --tw-bg-opacity: 1;
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity))
+}
+
+#tailwind .bg-grey-8 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(249, 249, 249, var(--tw-bg-opacity))
+}
+
+#tailwind .bg-green-2 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(79, 166, 75, var(--tw-bg-opacity))
+}
+
+#tailwind .bg-red-1 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(242, 76, 75, var(--tw-bg-opacity))
+}
+
+#tailwind .bg-white-1 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(250, 250, 250, var(--tw-bg-opacity))
+}
+
+#tailwind .bg-pink-1 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(249, 166, 165, var(--tw-bg-opacity))
+}
+
+#tailwind .bg-grey-6 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(237, 237, 237, var(--tw-bg-opacity))
+}
+
+#tailwind .bg-green-1 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(92, 184, 92, var(--tw-bg-opacity))
+}
+
+#tailwind .bg-red-2 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 89, 82, var(--tw-bg-opacity))
+}
+
+#tailwind .bg-\[\#FFF8E8\] {
+    --tw-bg-opacity: 1;
+    background-color: rgba(255, 248, 232, var(--tw-bg-opacity))
+}
+
+#tailwind .bg-\[\#F5FBFF\] {
+    --tw-bg-opacity: 1;
+    background-color: rgba(245, 251, 255, var(--tw-bg-opacity))
+}
+
+#tailwind .bg-\[\#F8FFF3\] {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 255, 243, var(--tw-bg-opacity))
+}
+
+#tailwind .bg-\[\#FFF7F4\] {
+    --tw-bg-opacity: 1;
+    background-color: rgba(255, 247, 244, var(--tw-bg-opacity))
+}
+
+#tailwind .bg-\[\#FFF7F7\] {
+    --tw-bg-opacity: 1;
+    background-color: rgba(255, 247, 247, var(--tw-bg-opacity))
+}
+
+#tailwind .bg-\[\#F9F9F9\] {
+    --tw-bg-opacity: 1;
+    background-color: rgba(249, 249, 249, var(--tw-bg-opacity))
+}
+
+#tailwind .bg-\[\#FFF0E2\] {
+    --tw-bg-opacity: 1;
+    background-color: rgba(255, 240, 226, var(--tw-bg-opacity))
+}
+
+#tailwind .bg-transparent {
+    background-color: transparent
+}
+
+#tailwind .bg-grey-10 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(233, 238, 255, var(--tw-bg-opacity))
+}
+
+#tailwind .bg-dark-1 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(11, 56, 73, var(--tw-bg-opacity))
+}
+
+#tailwind .bg-cover {
+    background-size: cover
+}
+
+#tailwind .bg-center {
+    background-position: center
+}
+
+#tailwind .bg-no-repeat {
+    background-repeat: no-repeat
+}
+
+#tailwind .object-contain {
+    -o-object-fit: contain;
+    object-fit: contain
+}
+
+#tailwind .p-8 {
+    padding: 2rem
+}
+
+#tailwind .p-3 {
+    padding: .75rem
+}
+
+#tailwind .p-0 {
+    padding: 0
+}
+
+#tailwind .p-6 {
+    padding: 1.5rem
+}
+
+#tailwind .p-2 {
+    padding: .5rem
+}
+
+#tailwind .p-4 {
+    padding: 1rem
+}
+
+#tailwind .py-1\.5 {
+    padding-top: .375rem;
+    padding-bottom: .375rem
+}
+
+#tailwind .px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem
+}
+
+#tailwind .py-1 {
+    padding-top: .25rem;
+    padding-bottom: .25rem
+}
+
+#tailwind .py-2 {
+    padding-top: .5rem;
+    padding-bottom: .5rem
+}
+
+#tailwind .px-3 {
+    padding-left: .75rem;
+    padding-right: .75rem
+}
+
+#tailwind .py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem
+}
+
+#tailwind .px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem
+}
+
+#tailwind .py-3 {
+    padding-top: .75rem;
+    padding-bottom: .75rem
+}
+
+#tailwind .py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem
+}
+
+#tailwind .py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem
+}
+
+#tailwind .py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem
+}
+
+#tailwind .px-2 {
+    padding-left: .5rem;
+    padding-right: .5rem
+}
+
+#tailwind .pb-10 {
+    padding-bottom: 2.5rem
+}
+
+#tailwind .pt-0 {
+    padding-top: 0
+}
+
+#tailwind .pb-\[87px\] {
+    padding-bottom: 87px
+}
+
+#tailwind .pt-nav,
+#tailwind .pt-\[67px\] {
+    padding-top: 67px
+}
+
+#tailwind .pb-4 {
+    padding-bottom: 1rem
+}
+
+#tailwind .pt-8 {
+    padding-top: 2rem
+}
+
+#tailwind .pt-2 {
+    padding-top: .5rem
+}
+
+#tailwind .pr-4 {
+    padding-right: 1rem
+}
+
+#tailwind .pb-12 {
+    padding-bottom: 3rem
+}
+
+#tailwind .pr-2 {
+    padding-right: .5rem
+}
+
+#tailwind .pl-4 {
+    padding-left: 1rem
+}
+
+#tailwind .pl-5 {
+    padding-left: 1.25rem
+}
+
+#tailwind .text-left {
+    text-align: left
+}
+
+#tailwind .text-center {
+    text-align: center
+}
+
+#tailwind .text-right {
+    text-align: right
+}
+
+#tailwind .text-justify {
+    text-align: justify
+}
+
+#tailwind .text-base {
+    font-size: 1rem;
+    line-height: 1.5rem
+}
+
+#tailwind .text-xs {
+    font-size: .75rem;
+    line-height: 1rem
+}
+
+#tailwind .text-28 {
+    font-size: 28px
+}
+
+#tailwind .text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem
+}
+
+#tailwind .text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem
+}
+
+#tailwind .text-sm {
+    font-size: .875rem;
+    line-height: 1.25rem
+}
+
+#tailwind .text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem
+}
+
+#tailwind .text-32 {
+    font-size: 32px
+}
+
+#tailwind .font-bold {
+    font-weight: 700
+}
+
+#tailwind .font-medium {
+    font-weight: 500
+}
+
+#tailwind .font-semibold {
+    font-weight: 600
+}
+
+#tailwind .uppercase {
+    text-transform: uppercase
+}
+
+#tailwind .capitalize {
+    text-transform: capitalize
+}
+
+#tailwind .text-grey-4 {
+    --tw-text-opacity: 1;
+    color: rgba(47, 55, 79, var(--tw-text-opacity))
+}
+
+#tailwind .text-white {
+    --tw-text-opacity: 1;
+    color: rgba(255, 255, 255, var(--tw-text-opacity))
+}
+
+#tailwind .text-dark-1 {
+    --tw-text-opacity: 1;
+    color: rgba(11, 56, 73, var(--tw-text-opacity))
+}
+
+#tailwind .text-red-2 {
+    --tw-text-opacity: 1;
+    color: rgba(224, 89, 82, var(--tw-text-opacity))
+}
+
+#tailwind .text-black {
+    --tw-text-opacity: 1;
+    color: rgba(0, 0, 0, var(--tw-text-opacity))
+}
+
+#tailwind .text-grey-2 {
+    --tw-text-opacity: 1;
+    color: rgba(63, 63, 63, var(--tw-text-opacity))
+}
+
+#tailwind .text-red-1 {
+    --tw-text-opacity: 1;
+    color: rgba(242, 76, 75, var(--tw-text-opacity))
+}
+
+#tailwind .text-grey-1 {
+    --tw-text-opacity: 1;
+    color: rgba(119, 119, 119, var(--tw-text-opacity))
+}
+
+#tailwind .text-\[\#333\] {
+    --tw-text-opacity: 1;
+    color: rgba(51, 51, 51, var(--tw-text-opacity))
+}
+
+#tailwind .text-grey-3 {
+    --tw-text-opacity: 1;
+    color: rgba(166, 166, 166, var(--tw-text-opacity))
+}
+
+#tailwind .underline {
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline
+}
+
+#tailwind .line-through {
+    -webkit-text-decoration-line: line-through;
+    text-decoration-line: line-through
+}
+
+#tailwind .opacity-0 {
+    opacity: 0
+}
+
+#tailwind .shadow-partnership {
+    --tw-shadow: 4px 4px 8px rgba(0, 0, 0, .04);
+    --tw-shadow-colored: 4px 4px 8px var(--tw-shadow-color);
+    box-shadow: 0 0 #0000, 0 0 #0000, var(--tw-shadow);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-ring-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-shadow)
+}
+
+#tailwind .outline-none {
+    outline: 2px solid transparent;
+    outline-offset: 2px
+}
+
+#tailwind .drop-shadow {
+    --tw-drop-shadow: drop-shadow(0 1px 2px rgba(0, 0, 0, .1)) drop-shadow(0 1px 1px rgba(0, 0, 0, .06));
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)
+}
+
+#tailwind .filter {
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)
+}
+
+#tailwind .transition-transform {
+    transition-property: transform;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    transition-duration: .15s
+}
+
+.container {
+    width: 100%
+}
+
+@media(min-width:640px) {
+    .container {
+        max-width: 640px
+    }
+}
+
+@media(min-width:768px) {
+    .container {
+        max-width: 768px
+    }
+}
+
+@media(min-width:1024px) {
+    .container {
+        max-width: 1024px
+    }
+}
+
+@media(min-width:1280px) {
+    .container {
+        max-width: 1280px
+    }
+}
+
+@media(min-width:1536px) {
+    .container {
+        max-width: 1536px
+    }
+}
+
+@media(min-width:1800px) {
+    .container {
+        max-width: 1800px
+    }
+}
+
+@media(min-width:1920px) {
+    .container {
+        max-width: 1920px
+    }
+}
+
+html {
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+body.active {
+    overflow: hidden
+}
+
+.wrapper {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1140px
+}
+
+#tailwind .accordion__trigger {
+    margin-bottom: .5rem;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: .25rem;
+    border-width: 1px;
+    --tw-border-opacity: 1;
+    border-color: rgba(166, 166, 166, var(--tw-border-opacity));
+    padding: .5rem 1.25rem;
+    --tw-text-opacity: 1;
+    color: rgba(63, 63, 63, var(--tw-text-opacity))
+}
+
+#tailwind .accordion__trigger:hover {
+    color: #000
+}
+
+#tailwind .accordion__text {
+    pointer-events: none;
+    margin-bottom: 0;
+    height: 0;
+    cursor: default;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    --tw-text-opacity: 1;
+    color: rgba(119, 119, 119, var(--tw-text-opacity));
+    opacity: 0;
+    transition: all .2s ease-in-out
+}
+
+#tailwind .button--red:hover {
+    background-color: #ef1d1b
+}
+
+.hamburger {
+    cursor: pointer
+}
+
+.hamburger span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin-bottom: 4px;
+    border-radius: 3px;
+    background-color: #2f374f;
+    z-index: 1;
+    transition: transform .5s cubic-bezier(.77, .2, .05, 1), opacity .55s ease
+}
+
+.hamburger span:first-child {
+    transform-origin: 13% 70%
+}
+
+.hamburger span:last-child {
+    transform-origin: 20% 60%;
+    margin-bottom: 0
+}
+
+.hamburger.active span {
+    opacity: 1
+}
+
+.hamburger.active span:first-child {
+    transform: rotate(45deg)
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+    transform: translate(-30px)
+}
+
+.hamburger.active span:last-child {
+    transform: rotate(-45deg)
+}
+
+.navigation {
+    z-index: 1000
+}
+
+.navigation.active {
+    z-index: 2147483002
+}
+
+.navigation__menu--mobile {
+    transform: translateY(-100%);
+    transition: transform .5s cubic-bezier(.77, .2, .05, 1);
+    z-index: 999
+}
+
+.navigation__menu--mobile.active {
+    transform: translateY(0);
+    z-index: 2147483001
+}
+
+@-webkit-keyframes spin {
+    0% {
+        transform: rotate(0)
+    }
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0)
+    }
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+.loader {
+    font-size: 16px;
+    position: relative;
+    border-style: solid;
+    border-color: #fff;
+    border-bottom-color: transparent !important;
+    transform: translateZ(0);
+    border-width: 2px;
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    -webkit-animation: spin 1.1s linear infinite;
+    animation: spin 1.1s linear infinite
+}
+
+.landlord-information__list li::marker {
+    color: #f24c4b
+}
+
+.about-us__box:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    --tw-bg-opacity: 1;
+    background-color: rgba(249, 166, 165, var(--tw-bg-opacity));
+    content: "";
+    opacity: .3;
+    z-index: -1
+}
+
+.partnership .list-verified li:before {
+    content: url(/vite/assets/verified.5659aa41.svg);
+    margin-top: 1px;
+    margin-right: 10px
+}
+
+body.seo_campaigns_best_regions {
+    padding-top: 0
+}
+
+#tailwind .placeholder\:text-sm::-moz-placeholder {
+    font-size: .875rem;
+    line-height: 1.25rem
+}
+
+#tailwind .placeholder\:text-sm:-ms-input-placeholder {
+    font-size: .875rem;
+    line-height: 1.25rem
+}
+
+#tailwind .placeholder\:text-sm::placeholder {
+    font-size: .875rem;
+    line-height: 1.25rem
+}
+
+#tailwind .placeholder\:text-grey-9::-moz-placeholder {
+    --tw-text-opacity: 1;
+    color: rgba(141, 141, 141, var(--tw-text-opacity))
+}
+
+#tailwind .placeholder\:text-grey-9:-ms-input-placeholder {
+    --tw-text-opacity: 1;
+    color: rgba(141, 141, 141, var(--tw-text-opacity))
+}
+
+#tailwind .placeholder\:text-grey-9::placeholder {
+    --tw-text-opacity: 1;
+    color: rgba(141, 141, 141, var(--tw-text-opacity))
+}
+
+#tailwind .hover\:bg-green-1-darken:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(68, 157, 68, var(--tw-bg-opacity))
+}
+
+#tailwind .hover\:bg-grey-9\/20:hover {
+    background-color: #8d8d8d33
+}
+
+#tailwind .hover\:text-black:hover {
+    --tw-text-opacity: 1;
+    color: rgba(0, 0, 0, var(--tw-text-opacity))
+}
+
+#tailwind .hover\:underline:hover {
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline
+}
+
+#tailwind .focus\:bg-grey-9\/20:focus {
+    background-color: #8d8d8d33
+}
+
+#tailwind .focus\:no-underline:focus {
+    -webkit-text-decoration-line: none;
+    text-decoration-line: none
+}
+
+#tailwind .active\:shadow-click-button:active {
+    --tw-shadow: inset 0 3px 5px rgba(0, 0, 0, .13);
+    --tw-shadow-colored: inset 0 3px 5px var(--tw-shadow-color);
+    box-shadow: 0 0 #0000, 0 0 #0000, var(--tw-shadow);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-ring-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-shadow)
+}
+
+@media(min-width:640px) {
+    #tailwind .sm\:mx-5 {
+        margin-left: 1.25rem;
+        margin-right: 1.25rem
+    }
+    #tailwind .sm\:ml-5 {
+        margin-left: 1.25rem
+    }
+    #tailwind .sm\:w-3\/4 {
+        width: 75%
+    }
+    #tailwind .sm\:w-\[300px\] {
+        width: 300px
+    }
+    #tailwind .sm\:w-\[310px\] {
+        width: 310px
+    }
+    #tailwind .sm\:grid-cols-\[repeat\(2\, _max-content\)\] {
+        grid-template-columns: repeat(2, -webkit-max-content);
+        grid-template-columns: repeat(2, max-content)
+    }
+    #tailwind .sm\:justify-between {
+        justify-content: space-between
+    }
+}
+
+@media(min-width:768px) {
+    #tailwind .md\:order-none {
+        order: 0
+    }
+    #tailwind .md\:mb-0 {
+        margin-bottom: 0
+    }
+    #tailwind .md\:block {
+        display: block
+    }
+    #tailwind .md\:flex {
+        display: flex
+    }
+    #tailwind .md\:hidden {
+        display: none
+    }
+    #tailwind .md\:h-\[280px\] {
+        height: 280px
+    }
+    #tailwind .md\:h-\[150px\] {
+        height: 150px
+    }
+    #tailwind .md\:w-\[336px\] {
+        width: 336px
+    }
+    #tailwind .md\:w-2\/3 {
+        width: 66.666667%
+    }
+    #tailwind .md\:w-3\/4 {
+        width: 75%
+    }
+    #tailwind .md\:w-\[300px\] {
+        width: 300px
+    }
+    #tailwind .md\:flex-1 {
+        flex: 1 1 0%
+    }
+    #tailwind .md\:grid-cols-\[repeat\(3\, _max-content\)\] {
+        grid-template-columns: repeat(3, -webkit-max-content);
+        grid-template-columns: repeat(3, max-content)
+    }
+    #tailwind .md\:flex-row {
+        flex-direction: row
+    }
+    #tailwind .md\:items-center {
+        align-items: center
+    }
+    #tailwind .md\:justify-between {
+        justify-content: space-between
+    }
+    #tailwind .md\:space-y-12>:not([hidden])~:not([hidden]) {
+        --tw-space-y-reverse: 0;
+        margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
+        margin-bottom: calc(3rem * var(--tw-space-y-reverse))
+    }
+    #tailwind .md\:space-x-8>:not([hidden])~:not([hidden]) {
+        --tw-space-x-reverse: 0;
+        margin-right: calc(2rem * var(--tw-space-x-reverse));
+        margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)))
+    }
+    #tailwind .md\:space-y-0>:not([hidden])~:not([hidden]) {
+        --tw-space-y-reverse: 0;
+        margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+        margin-bottom: calc(0px * var(--tw-space-y-reverse))
+    }
+    #tailwind .md\:space-x-4>:not([hidden])~:not([hidden]) {
+        --tw-space-x-reverse: 0;
+        margin-right: calc(1rem * var(--tw-space-x-reverse));
+        margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)))
+    }
+    #tailwind .md\:pb-0 {
+        padding-bottom: 0
+    }
+    #tailwind .md\:text-5xl {
+        font-size: 3rem;
+        line-height: 1
+    }
+}
+
+@media(min-width:1024px) {
+    #tailwind .lg\:order-1 {
+        order: 1
+    }
+    #tailwind .lg\:mx-3 {
+        margin-left: .75rem;
+        margin-right: .75rem
+    }
+    #tailwind .lg\:mx-auto {
+        margin-left: auto;
+        margin-right: auto
+    }
+    #tailwind .lg\:mx-0 {
+        margin-left: 0;
+        margin-right: 0
+    }
+    #tailwind .lg\:mx-8 {
+        margin-left: 2rem;
+        margin-right: 2rem
+    }
+    #tailwind .lg\:mb-0 {
+        margin-bottom: 0
+    }
+    #tailwind .lg\:mb-12 {
+        margin-bottom: 3rem
+    }
+    #tailwind .lg\:ml-3 {
+        margin-left: .75rem
+    }
+    #tailwind .lg\:mt-12 {
+        margin-top: 3rem
+    }
+    #tailwind .lg\:block {
+        display: block
+    }
+    #tailwind .lg\:flex {
+        display: flex
+    }
+    #tailwind .lg\:hidden {
+        display: none
+    }
+    #tailwind .lg\:h-\[250px\] {
+        height: 250px
+    }
+    #tailwind .lg\:h-\[64px\] {
+        height: 64px
+    }
+    #tailwind .lg\:h-\[290px\] {
+        height: 290px
+    }
+    #tailwind .lg\:h-\[445px\] {
+        height: 445px
+    }
+    #tailwind .lg\:h-\[225px\] {
+        height: 225px
+    }
+    #tailwind .lg\:h-\[254px\] {
+        height: 254px
+    }
+    #tailwind .lg\:h-\[248px\] {
+        height: 248px
+    }
+    #tailwind .lg\:w-\[970px\] {
+        width: 970px
+    }
+    #tailwind .lg\:w-2\/3 {
+        width: 66.666667%
+    }
+    #tailwind .lg\:w-1\/2 {
+        width: 50%
+    }
+    #tailwind .lg\:w-full {
+        width: 100%
+    }
+    #tailwind .lg\:w-1\/4 {
+        width: 25%
+    }
+    #tailwind .lg\:w-\[49\%\] {
+        width: 49%
+    }
+    #tailwind .lg\:w-\[450px\] {
+        width: 450px
+    }
+    #tailwind .lg\:w-\[50\%\] {
+        width: 50%
+    }
+    #tailwind .lg\:w-\[304px\] {
+        width: 304px
+    }
+    #tailwind .lg\:max-w-\[800px\] {
+        max-width: 800px
+    }
+    #tailwind .lg\:grid-cols-\[repeat\(4\, _max-content\)\] {
+        grid-template-columns: repeat(4, -webkit-max-content);
+        grid-template-columns: repeat(4, max-content)
+    }
+    #tailwind .lg\:flex-wrap {
+        flex-wrap: wrap
+    }
+    #tailwind .lg\:items-center {
+        align-items: center
+    }
+    #tailwind .lg\:justify-center {
+        justify-content: center
+    }
+    #tailwind .lg\:justify-between {
+        justify-content: space-between
+    }
+    #tailwind .lg\:gap-10 {
+        gap: 2.5rem
+    }
+    #tailwind .lg\:space-y-32>:not([hidden])~:not([hidden]) {
+        --tw-space-y-reverse: 0;
+        margin-top: calc(8rem * calc(1 - var(--tw-space-y-reverse)));
+        margin-bottom: calc(8rem * var(--tw-space-y-reverse))
+    }
+    #tailwind .lg\:space-y-0>:not([hidden])~:not([hidden]) {
+        --tw-space-y-reverse: 0;
+        margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+        margin-bottom: calc(0px * var(--tw-space-y-reverse))
+    }
+    #tailwind .lg\:space-y-8>:not([hidden])~:not([hidden]) {
+        --tw-space-y-reverse: 0;
+        margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
+        margin-bottom: calc(2rem * var(--tw-space-y-reverse))
+    }
+    #tailwind .lg\:border-0 {
+        border-width: 0
+    }
+    #tailwind .lg\:bg-white-1 {
+        --tw-bg-opacity: 1;
+        background-color: rgba(250, 250, 250, var(--tw-bg-opacity))
+    }
+    #tailwind .lg\:p-0 {
+        padding: 0
+    }
+    #tailwind .lg\:py-12 {
+        padding-top: 3rem;
+        padding-bottom: 3rem
+    }
+    #tailwind .lg\:px-3 {
+        padding-left: .75rem;
+        padding-right: .75rem
+    }
+    #tailwind .lg\:py-2 {
+        padding-top: .5rem;
+        padding-bottom: .5rem
+    }
+    #tailwind .lg\:py-8 {
+        padding-top: 2rem;
+        padding-bottom: 2rem
+    }
+    #tailwind .lg\:py-16 {
+        padding-top: 4rem;
+        padding-bottom: 4rem
+    }
+    #tailwind .lg\:pb-12 {
+        padding-bottom: 3rem
+    }
+    #tailwind .lg\:pt-3 {
+        padding-top: .75rem
+    }
+    #tailwind .lg\:pr-0 {
+        padding-right: 0
+    }
+    #tailwind .lg\:pb-16 {
+        padding-bottom: 4rem
+    }
+    #tailwind .lg\:text-center {
+        text-align: center
+    }
+    #tailwind .lg\:text-xl {
+        font-size: 1.25rem;
+        line-height: 1.75rem
+    }
+    #tailwind .lg\:text-40 {
+        font-size: 40px
+    }
+    #tailwind .lg\:text-2xl {
+        font-size: 1.5rem;
+        line-height: 2rem
+    }
+    #tailwind .lg\:text-3xl {
+        font-size: 1.875rem;
+        line-height: 2.25rem
+    }
+    #tailwind .lg\:text-32 {
+        font-size: 32px
+    }
+    #tailwind .lg\:text-5xl {
+        font-size: 3rem;
+        line-height: 1
+    }
+    #tailwind .lg\:text-base {
+        font-size: 1rem;
+        line-height: 1.5rem
+    }
+    #tailwind .lg\:font-bold {
+        font-weight: 700
+    }
+    #tailwind .lg\:leading-normal {
+        line-height: 1.5
+    }
+    #tailwind .lg\:leading-9 {
+        line-height: 2.25rem
+    }
+}
+
+@media(min-width:1280px) {
+    #tailwind .xl\:order-1 {
+        order: 1
+    }
+    #tailwind .xl\:order-3 {
+        order: 3
+    }
+    #tailwind .xl\:order-2 {
+        order: 2
+    }
+    #tailwind .xl\:mb-12 {
+        margin-bottom: 3rem
+    }
+    #tailwind .xl\:mb-0 {
+        margin-bottom: 0
+    }
+    #tailwind .xl\:flex {
+        display: flex
+    }
+    #tailwind .xl\:h-\[60px\] {
+        height: 60px
+    }
+    #tailwind .xl\:h-\[355px\] {
+        height: 355px
+    }
+    #tailwind .xl\:w-2\/3 {
+        width: 66.666667%
+    }
+    #tailwind .xl\:w-1\/3 {
+        width: 33.333333%
+    }
+    #tailwind .xl\:w-1\/2 {
+        width: 50%
+    }
+    #tailwind .xl\:w-\[550px\] {
+        width: 550px
+    }
+    #tailwind .xl\:flex-wrap {
+        flex-wrap: wrap
+    }
+    #tailwind .xl\:self-center {
+        align-self: center
+    }
+    #tailwind .xl\:p-10 {
+        padding: 2.5rem
+    }
+    #tailwind .xl\:pr-6 {
+        padding-right: 1.5rem
+    }
+    #tailwind .xl\:pt-8 {
+        padding-top: 2rem
+    }
+    #tailwind .xl\:pl-6 {
+        padding-left: 1.5rem
+    }
+    #tailwind .xl\:text-left {
+        text-align: left
+    }
+    #tailwind .xl\:text-center {
+        text-align: center
+    }
+    #tailwind .xl\:text-45 {
+        font-size: 45px
+    }
+    #tailwind .xl\:text-3xl {
+        font-size: 1.875rem;
+        line-height: 2.25rem
+    }
+    #tailwind .xl\:text-xl {
+        font-size: 1.25rem;
+        line-height: 1.75rem
+    }
+    #tailwind .xl\:text-4xl {
+        font-size: 2.25rem;
+        line-height: 2.5rem
+    }
+}
+
+@media(min-width:1536px) {
+    #tailwind .\32xl\:block {
+        display: block
+    }
+    #tailwind .\32xl\:flex {
+        display: flex
+    }
+    #tailwind .\32xl\:h-\[600px\] {
+        height: 600px
+    }
+    #tailwind .\32xl\:w-full {
+        width: 100%
+    }
+    #tailwind .\32xl\:w-\[160px\] {
+        width: 160px
+    }
+    #tailwind .\32xl\:w-\[1170px\] {
+        width: 1170px
+    }
+    #tailwind .\32xl\:w-\[1140px\] {
+        width: 1140px
+    }
+    #tailwind .\32xl\:max-w-full {
+        max-width: 100%
+    }
+    #tailwind .\32xl\:justify-center {
+        justify-content: center
+    }
+}
+
+@media(min-width:1800px) {
+    #tailwind .\33xl\:block {
+        display: block
+    }
+    #tailwind .\33xl\:flex {
+        display: flex
+    }
+    #tailwind .\33xl\:h-\[1050px\] {
+        height: 1050px
+    }
+    #tailwind .\33xl\:w-full {
+        width: 100%
+    }
+    #tailwind .\33xl\:w-\[300px\] {
+        width: 300px
+    }
+    #tailwind .\33xl\:w-\[1170px\] {
+        width: 1170px
+    }
+    #tailwind .\33xl\:max-w-full {
+        max-width: 100%
+    }
+    #tailwind .\33xl\:justify-center {
+        justify-content: center
+    }
+}
+
+@media(min-width:1920px) {
+    #tailwind .\34xl\:mr-6 {
+        margin-right: 1.5rem
+    }
+    #tailwind .\34xl\:ml-6 {
+        margin-left: 1.5rem
+    }
+    #tailwind .\34xl\:justify-start {
+        justify-content: flex-start
+    }
+    #tailwind .\34xl\:justify-end {
+        justify-content: flex-end
+    }
+}
